@@ -1,0 +1,30 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> HEART DISEASE PREDICTION </h1><br>
+        
+        <form method="POST", action="{{url_for('predict_disease')}}">
+           <b> age :  <input type="text", name='age', placeholder="enter 1"> <br><br>
+            sex:  <input type="text", name='sex', placeholder="enter 2"> <br><br>
+            cp :  <input type="text", name='cp', placeholder="enter 3"> <br><br>
+            trestbps : <input type="text", name='trestbps', placeholder="enter 4"> <br><br><br>
+            chol : <input type="text", name='chol', placeholder="enter 5"> <br><br><br>
+            fbs : <input type="text", name='fbs', placeholder="enter 6"> <br><br><br>
+            restecg : <input type="text", name='restecg', placeholder="enter 7"> <br><br><br>
+            thalach : <input type="text", name='thalach', placeholder="enter 8"> <br><br><br>
+            exang: <input type="text", name='exang', placeholder="enter 9"> <br><br><br>
+            oldpeak: <input type="text", name='oldpeak', placeholder="enter 10"> <br><br><br>
+            slope : <input type="text", name='slope', placeholder="enter 11"> <br><br><br>
+            ca : <input type="text", name='ca', placeholder="enter 12"> <br><br><br>
+            thal : <input type="text", name='thal', placeholder="enter 13"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        
+        
+    </center>
+
+    </body>
+</html>
